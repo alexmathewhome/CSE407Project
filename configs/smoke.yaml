@@ -1,0 +1,4 @@
+# Short run used by setup_env.sh to confirm that the setup works.
+experiment: smoke
+epochs: 5
+plot_every: 1

@@ -1,0 +1,13 @@
+# torch and torchvision are installed by setup_env.sh from the CUDA index. Do not list them here.
+numpy
+pyyaml
+pandas
+scipy
+scikit-learn
+matplotlib
+tqdm
+jupyterlab
+transformers
+datasets
+accelerate
+tensorboard
