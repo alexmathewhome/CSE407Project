@@ -1,0 +1,53 @@
+Model,Condition,Accuracy
+baseline_cnn,Clean,84.86
+baseline_vit,Clean,70.12
+augmented_cnn,Clean,82.0
+augmented_vit,Clean,67.18
+baseline_cnn,Raw - Gaussian_Noise_S1,24.38
+baseline_vit,Raw - Gaussian_Noise_S1,56.01
+augmented_cnn,Raw - Gaussian_Noise_S1,77.06
+augmented_vit,Raw - Gaussian_Noise_S1,64.5
+baseline_cnn,Strategy A - Gaussian_Noise_S1,54.38
+baseline_vit,Strategy A - Gaussian_Noise_S1,56.85
+augmented_cnn,Strategy A - Gaussian_Noise_S1,74.72
+augmented_vit,Strategy A - Gaussian_Noise_S1,63.96
+baseline_cnn,Raw - Gaussian_Noise_S2,12.57
+baseline_vit,Raw - Gaussian_Noise_S2,27.82
+augmented_cnn,Raw - Gaussian_Noise_S2,61.87
+augmented_vit,Raw - Gaussian_Noise_S2,53.4
+baseline_cnn,Strategy A - Gaussian_Noise_S2,29.14
+baseline_vit,Strategy A - Gaussian_Noise_S2,44.8
+augmented_cnn,Strategy A - Gaussian_Noise_S2,59.07
+augmented_vit,Strategy A - Gaussian_Noise_S2,53.83
+baseline_cnn,Raw - Gaussian_Blur_S1,58.6
+baseline_vit,Raw - Gaussian_Blur_S1,57.32
+augmented_cnn,Raw - Gaussian_Blur_S1,78.02
+augmented_vit,Raw - Gaussian_Blur_S1,65.76
+baseline_cnn,Strategy A - Gaussian_Blur_S1,75.58
+baseline_vit,Strategy A - Gaussian_Blur_S1,67.6
+augmented_cnn,Strategy A - Gaussian_Blur_S1,80.02
+augmented_vit,Strategy A - Gaussian_Blur_S1,66.48
+baseline_cnn,Raw - Gaussian_Blur_S2,33.25
+baseline_vit,Raw - Gaussian_Blur_S2,44.45
+augmented_cnn,Raw - Gaussian_Blur_S2,71.03
+augmented_vit,Raw - Gaussian_Blur_S2,62.65
+baseline_cnn,Strategy A - Gaussian_Blur_S2,43.3
+baseline_vit,Strategy A - Gaussian_Blur_S2,51.6
+augmented_cnn,Strategy A - Gaussian_Blur_S2,75.03
+augmented_vit,Strategy A - Gaussian_Blur_S2,64.66
+baseline_cnn,Raw - Pixelation_S1,50.72
+baseline_vit,Raw - Pixelation_S1,59.43
+augmented_cnn,Raw - Pixelation_S1,77.22
+augmented_vit,Raw - Pixelation_S1,64.81
+baseline_cnn,Strategy A - Pixelation_S1,65.64
+baseline_vit,Strategy A - Pixelation_S1,59.36
+augmented_cnn,Strategy A - Pixelation_S1,75.05
+augmented_vit,Strategy A - Pixelation_S1,64.67
+baseline_cnn,Raw - Pixelation_S2,24.02
+baseline_vit,Raw - Pixelation_S2,26.67
+augmented_cnn,Raw - Pixelation_S2,62.92
+augmented_vit,Raw - Pixelation_S2,57.21
+baseline_cnn,Strategy A - Pixelation_S2,48.11
+baseline_vit,Strategy A - Pixelation_S2,29.14
+augmented_cnn,Strategy A - Pixelation_S2,61.33
+augmented_vit,Strategy A - Pixelation_S2,56.92

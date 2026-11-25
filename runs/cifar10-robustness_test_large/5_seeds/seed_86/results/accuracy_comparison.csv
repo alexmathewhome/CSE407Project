@@ -1,0 +1,14 @@
+Condition,baseline_cnn,baseline_vit,augmented_cnn,augmented_vit
+Clean,82.81,70.3,80.46,68.47
+Raw - Gaussian_Noise_S1,35.91,56.24,76.55,64.21
+Strategy A - Gaussian_Noise_S1,56.62,59.96,74.52,64.21
+Raw - Gaussian_Noise_S2,15.84,26.64,61.33,53.71
+Strategy A - Gaussian_Noise_S2,28.89,42.75,59.33,54.25
+Raw - Gaussian_Blur_S1,56.18,61.18,77.21,66.3
+Strategy A - Gaussian_Blur_S1,74.84,67.89,78.39,67.36
+Raw - Gaussian_Blur_S2,31.07,48.16,69.79,62.78
+Strategy A - Gaussian_Blur_S2,40.8,56.23,73.89,65.68
+Raw - Pixelation_S1,61.65,59.28,75.56,65.08
+Strategy A - Pixelation_S1,63.08,61.31,73.61,64.73
+Raw - Pixelation_S2,34.56,28.14,62.39,57.96
+Strategy A - Pixelation_S2,42.46,32.1,59.74,57.71

@@ -1,0 +1,279 @@
+baseline_cnn epoch   1/50  train loss 1.7287 acc 36.84%  val loss 1.2896 acc 53.64%
+baseline_cnn epoch   2/50  train loss 1.2892 acc 53.24%  val loss 1.0191 acc 62.90%
+baseline_cnn epoch   3/50  train loss 1.1165 acc 60.20%  val loss 1.0280 acc 62.70%
+baseline_cnn epoch   4/50  train loss 1.0138 acc 64.50%  val loss 1.3200 acc 56.10%
+baseline_cnn epoch   5/50  train loss 0.9425 acc 66.85%  val loss 0.7899 acc 71.90%
+baseline_cnn epoch   6/50  train loss 0.8828 acc 68.77%  val loss 0.8513 acc 69.76%
+baseline_cnn epoch   7/50  train loss 0.8488 acc 70.42%  val loss 0.8891 acc 67.68%
+baseline_cnn epoch   8/50  train loss 0.8159 acc 71.49%  val loss 0.8474 acc 72.32%
+baseline_cnn epoch   9/50  train loss 0.7856 acc 72.51%  val loss 0.9569 acc 67.28%
+baseline_cnn epoch  10/50  train loss 0.7591 acc 73.85%  val loss 0.6819 acc 75.98%
+baseline_cnn epoch  11/50  train loss 0.7295 acc 74.64%  val loss 0.8081 acc 73.00%
+baseline_cnn epoch  12/50  train loss 0.7108 acc 75.38%  val loss 0.6834 acc 75.80%
+baseline_cnn epoch  13/50  train loss 0.6889 acc 75.88%  val loss 0.8145 acc 72.90%
+baseline_cnn epoch  14/50  train loss 0.6629 acc 77.14%  val loss 0.6029 acc 78.72%
+baseline_cnn epoch  15/50  train loss 0.6511 acc 77.46%  val loss 0.5523 acc 80.90%
+baseline_cnn epoch  16/50  train loss 0.6353 acc 78.05%  val loss 0.9178 acc 69.74%
+baseline_cnn epoch  17/50  train loss 0.6187 acc 78.57%  val loss 0.8451 acc 72.00%
+baseline_cnn epoch  18/50  train loss 0.6073 acc 79.13%  val loss 0.6632 acc 77.36%
+baseline_cnn epoch  19/50  train loss 0.5863 acc 79.52%  val loss 0.5458 acc 81.46%
+baseline_cnn epoch  20/50  train loss 0.5747 acc 80.08%  val loss 0.6463 acc 78.78%
+baseline_cnn epoch  21/50  train loss 0.5714 acc 80.37%  val loss 0.5854 acc 79.70%
+baseline_cnn epoch  22/50  train loss 0.5523 acc 80.82%  val loss 0.5988 acc 80.04%
+baseline_cnn epoch  23/50  train loss 0.5445 acc 81.08%  val loss 0.6655 acc 77.98%
+baseline_cnn epoch  24/50  train loss 0.5346 acc 81.67%  val loss 0.6656 acc 76.98%
+baseline_cnn epoch  25/50  train loss 0.5324 acc 81.72%  val loss 0.5474 acc 81.10%
+baseline_cnn epoch  26/50  train loss 0.5112 acc 82.35%  val loss 0.4943 acc 83.12%
+baseline_cnn epoch  27/50  train loss 0.5025 acc 82.71%  val loss 0.4743 acc 83.56%
+baseline_cnn epoch  28/50  train loss 0.4939 acc 82.94%  val loss 0.5253 acc 82.18%
+baseline_cnn epoch  29/50  train loss 0.4841 acc 83.32%  val loss 0.5595 acc 81.64%
+baseline_cnn epoch  30/50  train loss 0.4803 acc 83.50%  val loss 0.5767 acc 80.52%
+baseline_cnn epoch  31/50  train loss 0.4758 acc 83.69%  val loss 0.4803 acc 83.78%
+baseline_cnn epoch  32/50  train loss 0.4630 acc 83.94%  val loss 0.5460 acc 82.22%
+baseline_cnn epoch  33/50  train loss 0.4509 acc 84.35%  val loss 0.6234 acc 80.24%
+baseline_cnn epoch  34/50  train loss 0.4529 acc 84.42%  val loss 0.4705 acc 83.64%
+baseline_cnn epoch  35/50  train loss 0.4389 acc 85.03%  val loss 0.5347 acc 82.40%
+baseline_cnn epoch  36/50  train loss 0.4302 acc 85.15%  val loss 0.6086 acc 79.62%
+baseline_cnn epoch  37/50  train loss 0.4315 acc 85.21%  val loss 0.4438 acc 85.14%
+baseline_cnn epoch  38/50  train loss 0.4187 acc 85.61%  val loss 0.4903 acc 83.86%
+baseline_cnn epoch  39/50  train loss 0.4087 acc 85.98%  val loss 0.6863 acc 78.22%
+baseline_cnn epoch  40/50  train loss 0.3998 acc 86.20%  val loss 0.5376 acc 82.16%
+baseline_cnn epoch  41/50  train loss 0.3993 acc 86.20%  val loss 0.4822 acc 84.08%
+baseline_cnn epoch  42/50  train loss 0.3917 acc 86.51%  val loss 0.4632 acc 84.62%
+baseline_cnn epoch  43/50  train loss 0.3925 acc 86.55%  val loss 0.4773 acc 83.78%
+baseline_cnn epoch  44/50  train loss 0.3823 acc 86.95%  val loss 0.5194 acc 82.66%
+baseline_cnn epoch  45/50  train loss 0.3724 acc 87.15%  val loss 0.5484 acc 82.40%
+baseline_cnn epoch  46/50  train loss 0.3707 acc 87.24%  val loss 0.5119 acc 83.08%
+baseline_cnn epoch  47/50  train loss 0.3694 acc 87.21%  val loss 0.5475 acc 83.04%
+Early stop baseline_cnn at epoch 47. Best val loss 0.4438
+baseline_vit epoch   1/150  train loss 2.0279 acc 22.76%  val loss 1.8053 acc 30.90%
+baseline_vit epoch   2/150  train loss 1.7059 acc 34.86%  val loss 1.6376 acc 38.20%
+baseline_vit epoch   3/150  train loss 1.5891 acc 40.38%  val loss 1.5070 acc 44.96%
+baseline_vit epoch   4/150  train loss 1.4729 acc 46.04%  val loss 1.3731 acc 49.80%
+baseline_vit epoch   5/150  train loss 1.3905 acc 49.15%  val loss 1.3817 acc 49.88%
+baseline_vit epoch   6/150  train loss 1.3388 acc 51.43%  val loss 1.2791 acc 53.82%
+baseline_vit epoch   7/150  train loss 1.2841 acc 53.43%  val loss 1.2032 acc 57.30%
+baseline_vit epoch   8/150  train loss 1.2544 acc 54.53%  val loss 1.1601 acc 57.86%
+baseline_vit epoch   9/150  train loss 1.2229 acc 55.50%  val loss 1.1324 acc 59.14%
+baseline_vit epoch  10/150  train loss 1.1933 acc 56.76%  val loss 1.1400 acc 59.44%
+baseline_vit epoch  11/150  train loss 1.1707 acc 57.69%  val loss 1.0982 acc 60.46%
+baseline_vit epoch  12/150  train loss 1.1477 acc 58.61%  val loss 1.1270 acc 59.76%
+baseline_vit epoch  13/150  train loss 1.1258 acc 59.35%  val loss 1.0835 acc 61.58%
+baseline_vit epoch  14/150  train loss 1.0966 acc 60.53%  val loss 1.0357 acc 62.78%
+baseline_vit epoch  15/150  train loss 1.0866 acc 60.65%  val loss 1.0695 acc 61.66%
+baseline_vit epoch  16/150  train loss 1.0747 acc 61.19%  val loss 1.0297 acc 62.94%
+baseline_vit epoch  17/150  train loss 1.0544 acc 62.06%  val loss 1.0175 acc 63.82%
+baseline_vit epoch  18/150  train loss 1.0349 acc 62.60%  val loss 1.0010 acc 64.60%
+baseline_vit epoch  19/150  train loss 1.0222 acc 63.21%  val loss 0.9956 acc 64.52%
+baseline_vit epoch  20/150  train loss 1.0006 acc 64.07%  val loss 0.9612 acc 66.34%
+baseline_vit epoch  21/150  train loss 0.9848 acc 64.42%  val loss 0.9580 acc 66.48%
+baseline_vit epoch  22/150  train loss 0.9754 acc 64.75%  val loss 0.9629 acc 66.02%
+baseline_vit epoch  23/150  train loss 0.9587 acc 65.53%  val loss 0.9663 acc 65.82%
+baseline_vit epoch  24/150  train loss 0.9465 acc 65.73%  val loss 0.9357 acc 66.78%
+baseline_vit epoch  25/150  train loss 0.9370 acc 66.31%  val loss 0.9532 acc 66.96%
+baseline_vit epoch  26/150  train loss 0.9197 acc 67.08%  val loss 0.9146 acc 67.88%
+baseline_vit epoch  27/150  train loss 0.9160 acc 66.95%  val loss 0.9153 acc 68.20%
+baseline_vit epoch  28/150  train loss 0.8987 acc 67.61%  val loss 0.8975 acc 67.80%
+baseline_vit epoch  29/150  train loss 0.8860 acc 68.03%  val loss 0.9213 acc 67.52%
+baseline_vit epoch  30/150  train loss 0.8703 acc 68.85%  val loss 0.9000 acc 67.92%
+baseline_vit epoch  31/150  train loss 0.8665 acc 68.77%  val loss 0.8865 acc 68.68%
+baseline_vit epoch  32/150  train loss 0.8488 acc 69.50%  val loss 0.8728 acc 69.88%
+baseline_vit epoch  33/150  train loss 0.8374 acc 69.88%  val loss 0.8869 acc 69.18%
+baseline_vit epoch  34/150  train loss 0.8269 acc 70.45%  val loss 0.8882 acc 69.24%
+baseline_vit epoch  35/150  train loss 0.8202 acc 70.56%  val loss 0.8711 acc 69.62%
+baseline_vit epoch  36/150  train loss 0.8143 acc 70.85%  val loss 0.9067 acc 68.76%
+baseline_vit epoch  37/150  train loss 0.7929 acc 71.42%  val loss 0.8616 acc 70.02%
+baseline_vit epoch  38/150  train loss 0.7848 acc 71.74%  val loss 0.8426 acc 70.88%
+baseline_vit epoch  39/150  train loss 0.7768 acc 72.11%  val loss 0.8696 acc 69.00%
+baseline_vit epoch  40/150  train loss 0.7625 acc 72.73%  val loss 0.8485 acc 71.04%
+baseline_vit epoch  41/150  train loss 0.7550 acc 72.82%  val loss 0.8603 acc 70.32%
+baseline_vit epoch  42/150  train loss 0.7473 acc 73.08%  val loss 0.8733 acc 69.88%
+baseline_vit epoch  43/150  train loss 0.7341 acc 73.77%  val loss 0.8451 acc 71.06%
+baseline_vit epoch  44/150  train loss 0.7167 acc 74.29%  val loss 0.8403 acc 70.82%
+baseline_vit epoch  45/150  train loss 0.7118 acc 74.21%  val loss 0.8292 acc 71.48%
+baseline_vit epoch  46/150  train loss 0.6954 acc 75.19%  val loss 0.8432 acc 71.04%
+baseline_vit epoch  47/150  train loss 0.6864 acc 75.25%  val loss 0.8229 acc 71.70%
+baseline_vit epoch  48/150  train loss 0.6684 acc 75.96%  val loss 0.8391 acc 71.12%
+baseline_vit epoch  49/150  train loss 0.6593 acc 76.10%  val loss 0.8391 acc 71.20%
+baseline_vit epoch  50/150  train loss 0.6501 acc 76.53%  val loss 0.8305 acc 71.48%
+baseline_vit epoch  51/150  train loss 0.6389 acc 77.06%  val loss 0.8446 acc 71.32%
+baseline_vit epoch  52/150  train loss 0.6263 acc 77.37%  val loss 0.8106 acc 72.54%
+baseline_vit epoch  53/150  train loss 0.6126 acc 78.07%  val loss 0.8143 acc 72.14%
+baseline_vit epoch  54/150  train loss 0.6063 acc 78.02%  val loss 0.8267 acc 72.38%
+baseline_vit epoch  55/150  train loss 0.5983 acc 78.53%  val loss 0.8275 acc 72.64%
+baseline_vit epoch  56/150  train loss 0.5824 acc 79.02%  val loss 0.8268 acc 72.28%
+baseline_vit epoch  57/150  train loss 0.5699 acc 79.60%  val loss 0.8611 acc 71.60%
+baseline_vit epoch  58/150  train loss 0.5655 acc 79.77%  val loss 0.8495 acc 72.54%
+baseline_vit epoch  59/150  train loss 0.5521 acc 80.00%  val loss 0.8455 acc 71.48%
+baseline_vit epoch  60/150  train loss 0.5345 acc 80.83%  val loss 0.8508 acc 72.02%
+baseline_vit epoch  61/150  train loss 0.5291 acc 80.86%  val loss 0.8572 acc 72.34%
+baseline_vit epoch  62/150  train loss 0.5105 acc 81.50%  val loss 0.8777 acc 72.54%
+Early stop baseline_vit at epoch 62. Best val loss 0.8106
+augmented_cnn epoch   1/50  train loss 1.8227 acc 32.62%  val loss 1.4021 acc 49.22%
+augmented_cnn epoch   2/50  train loss 1.5116 acc 44.65%  val loss 1.2272 acc 55.28%
+augmented_cnn epoch   3/50  train loss 1.3728 acc 49.94%  val loss 1.1913 acc 57.72%
+augmented_cnn epoch   4/50  train loss 1.2886 acc 53.38%  val loss 0.9993 acc 63.86%
+augmented_cnn epoch   5/50  train loss 1.2299 acc 55.95%  val loss 0.9694 acc 65.56%
+augmented_cnn epoch   6/50  train loss 1.1800 acc 57.80%  val loss 0.9283 acc 66.44%
+augmented_cnn epoch   7/50  train loss 1.1422 acc 59.29%  val loss 0.9843 acc 65.56%
+augmented_cnn epoch   8/50  train loss 1.1110 acc 60.49%  val loss 0.9232 acc 66.94%
+augmented_cnn epoch   9/50  train loss 1.0837 acc 61.65%  val loss 0.8675 acc 68.74%
+augmented_cnn epoch  10/50  train loss 1.0575 acc 62.32%  val loss 0.7902 acc 71.54%
+augmented_cnn epoch  11/50  train loss 1.0305 acc 63.76%  val loss 0.7866 acc 73.56%
+augmented_cnn epoch  12/50  train loss 1.0073 acc 64.52%  val loss 0.7556 acc 73.32%
+augmented_cnn epoch  13/50  train loss 0.9856 acc 65.27%  val loss 0.7557 acc 73.98%
+augmented_cnn epoch  14/50  train loss 0.9726 acc 65.65%  val loss 0.7957 acc 72.88%
+augmented_cnn epoch  15/50  train loss 0.9631 acc 66.12%  val loss 0.6734 acc 77.32%
+augmented_cnn epoch  16/50  train loss 0.9399 acc 67.01%  val loss 0.7068 acc 75.96%
+augmented_cnn epoch  17/50  train loss 0.9265 acc 67.27%  val loss 0.7841 acc 73.20%
+augmented_cnn epoch  18/50  train loss 0.9180 acc 67.66%  val loss 0.6528 acc 77.26%
+augmented_cnn epoch  19/50  train loss 0.8998 acc 68.40%  val loss 0.7898 acc 73.68%
+augmented_cnn epoch  20/50  train loss 0.8925 acc 68.55%  val loss 0.6427 acc 77.36%
+augmented_cnn epoch  21/50  train loss 0.8790 acc 69.23%  val loss 0.6196 acc 78.62%
+augmented_cnn epoch  22/50  train loss 0.8736 acc 69.27%  val loss 0.6549 acc 77.32%
+augmented_cnn epoch  23/50  train loss 0.8678 acc 69.60%  val loss 0.6314 acc 78.26%
+augmented_cnn epoch  24/50  train loss 0.8549 acc 70.21%  val loss 0.6366 acc 77.12%
+augmented_cnn epoch  25/50  train loss 0.8491 acc 70.34%  val loss 0.6540 acc 77.08%
+augmented_cnn epoch  26/50  train loss 0.8339 acc 70.92%  val loss 0.6237 acc 78.72%
+augmented_cnn epoch  27/50  train loss 0.8363 acc 70.81%  val loss 0.6546 acc 77.58%
+augmented_cnn epoch  28/50  train loss 0.8175 acc 71.55%  val loss 0.6135 acc 79.16%
+augmented_cnn epoch  29/50  train loss 0.8121 acc 71.85%  val loss 0.6049 acc 79.18%
+augmented_cnn epoch  30/50  train loss 0.8018 acc 72.28%  val loss 0.5924 acc 79.94%
+augmented_cnn epoch  31/50  train loss 0.7933 acc 72.34%  val loss 0.5926 acc 79.78%
+augmented_cnn epoch  32/50  train loss 0.7890 acc 72.47%  val loss 0.6052 acc 79.04%
+augmented_cnn epoch  33/50  train loss 0.7795 acc 72.83%  val loss 0.6121 acc 79.42%
+augmented_cnn epoch  34/50  train loss 0.7790 acc 73.00%  val loss 0.5513 acc 81.34%
+augmented_cnn epoch  35/50  train loss 0.7662 acc 73.13%  val loss 0.6065 acc 79.22%
+augmented_cnn epoch  36/50  train loss 0.7663 acc 73.30%  val loss 0.6881 acc 76.12%
+augmented_cnn epoch  37/50  train loss 0.7574 acc 73.62%  val loss 0.5405 acc 81.60%
+augmented_cnn epoch  38/50  train loss 0.7556 acc 73.71%  val loss 0.6180 acc 79.20%
+augmented_cnn epoch  39/50  train loss 0.7442 acc 74.22%  val loss 0.5417 acc 81.48%
+augmented_cnn epoch  40/50  train loss 0.7427 acc 74.16%  val loss 0.5525 acc 80.60%
+augmented_cnn epoch  41/50  train loss 0.7384 acc 74.27%  val loss 0.5329 acc 81.70%
+augmented_cnn epoch  42/50  train loss 0.7286 acc 74.75%  val loss 0.5822 acc 80.72%
+augmented_cnn epoch  43/50  train loss 0.7321 acc 74.83%  val loss 0.5688 acc 80.44%
+augmented_cnn epoch  44/50  train loss 0.7149 acc 75.12%  val loss 0.6066 acc 78.90%
+augmented_cnn epoch  45/50  train loss 0.7155 acc 75.25%  val loss 0.6422 acc 78.22%
+augmented_cnn epoch  46/50  train loss 0.7119 acc 75.37%  val loss 0.5123 acc 82.62%
+augmented_cnn epoch  47/50  train loss 0.6966 acc 75.85%  val loss 0.5324 acc 82.46%
+augmented_cnn epoch  48/50  train loss 0.6941 acc 75.94%  val loss 0.5825 acc 80.00%
+augmented_cnn epoch  49/50  train loss 0.6936 acc 76.00%  val loss 0.5243 acc 81.36%
+augmented_cnn epoch  50/50  train loss 0.6859 acc 76.01%  val loss 0.5317 acc 82.06%
+augmented_vit epoch   1/150  train loss 2.0580 acc 21.83%  val loss 1.7945 acc 31.70%
+augmented_vit epoch   2/150  train loss 1.7843 acc 32.01%  val loss 1.6580 acc 36.24%
+augmented_vit epoch   3/150  train loss 1.6724 acc 37.42%  val loss 1.5053 acc 45.48%
+augmented_vit epoch   4/150  train loss 1.5684 acc 42.26%  val loss 1.4305 acc 49.08%
+augmented_vit epoch   5/150  train loss 1.5100 acc 44.52%  val loss 1.3581 acc 51.56%
+augmented_vit epoch   6/150  train loss 1.4686 acc 46.48%  val loss 1.3463 acc 51.92%
+augmented_vit epoch   7/150  train loss 1.4176 acc 48.38%  val loss 1.2887 acc 53.78%
+augmented_vit epoch   8/150  train loss 1.3946 acc 49.38%  val loss 1.2378 acc 55.52%
+augmented_vit epoch   9/150  train loss 1.3682 acc 49.97%  val loss 1.2440 acc 55.40%
+augmented_vit epoch  10/150  train loss 1.3423 acc 51.42%  val loss 1.2289 acc 55.44%
+augmented_vit epoch  11/150  train loss 1.3256 acc 51.83%  val loss 1.2051 acc 56.50%
+augmented_vit epoch  12/150  train loss 1.3075 acc 52.57%  val loss 1.1494 acc 58.52%
+augmented_vit epoch  13/150  train loss 1.2887 acc 53.42%  val loss 1.1541 acc 58.70%
+augmented_vit epoch  14/150  train loss 1.2768 acc 53.75%  val loss 1.1453 acc 59.20%
+augmented_vit epoch  15/150  train loss 1.2658 acc 54.11%  val loss 1.1214 acc 59.64%
+augmented_vit epoch  16/150  train loss 1.2503 acc 54.54%  val loss 1.1255 acc 59.90%
+augmented_vit epoch  17/150  train loss 1.2282 acc 55.66%  val loss 1.0907 acc 61.04%
+augmented_vit epoch  18/150  train loss 1.2180 acc 56.03%  val loss 1.0865 acc 61.44%
+augmented_vit epoch  19/150  train loss 1.2028 acc 56.76%  val loss 1.0690 acc 62.66%
+augmented_vit epoch  20/150  train loss 1.1968 acc 56.68%  val loss 1.0880 acc 61.54%
+augmented_vit epoch  21/150  train loss 1.1851 acc 57.13%  val loss 1.0561 acc 62.68%
+augmented_vit epoch  22/150  train loss 1.1735 acc 57.80%  val loss 1.0542 acc 62.40%
+augmented_vit epoch  23/150  train loss 1.1632 acc 58.18%  val loss 1.0892 acc 61.78%
+augmented_vit epoch  24/150  train loss 1.1564 acc 58.24%  val loss 1.0478 acc 62.64%
+augmented_vit epoch  25/150  train loss 1.1487 acc 58.45%  val loss 1.0379 acc 63.38%
+augmented_vit epoch  26/150  train loss 1.1374 acc 58.82%  val loss 1.0363 acc 63.78%
+augmented_vit epoch  27/150  train loss 1.1230 acc 59.76%  val loss 1.0096 acc 65.02%
+augmented_vit epoch  28/150  train loss 1.1162 acc 59.89%  val loss 1.0150 acc 64.28%
+augmented_vit epoch  29/150  train loss 1.1027 acc 60.03%  val loss 0.9874 acc 65.58%
+augmented_vit epoch  30/150  train loss 1.0923 acc 60.71%  val loss 0.9800 acc 65.64%
+augmented_vit epoch  31/150  train loss 1.0885 acc 60.95%  val loss 0.9921 acc 64.86%
+augmented_vit epoch  32/150  train loss 1.0684 acc 61.34%  val loss 1.0004 acc 64.98%
+augmented_vit epoch  33/150  train loss 1.0650 acc 61.54%  val loss 0.9790 acc 65.70%
+augmented_vit epoch  34/150  train loss 1.0594 acc 61.94%  val loss 0.9775 acc 66.02%
+augmented_vit epoch  35/150  train loss 1.0472 acc 62.40%  val loss 0.9987 acc 65.10%
+augmented_vit epoch  36/150  train loss 1.0365 acc 62.59%  val loss 0.9975 acc 65.62%
+augmented_vit epoch  37/150  train loss 1.0275 acc 62.90%  val loss 0.9590 acc 66.68%
+augmented_vit epoch  38/150  train loss 1.0184 acc 63.33%  val loss 0.9474 acc 66.96%
+augmented_vit epoch  39/150  train loss 1.0102 acc 63.45%  val loss 0.9751 acc 65.66%
+augmented_vit epoch  40/150  train loss 1.0016 acc 63.95%  val loss 1.0038 acc 65.30%
+augmented_vit epoch  41/150  train loss 0.9898 acc 64.30%  val loss 0.9731 acc 66.40%
+augmented_vit epoch  42/150  train loss 0.9853 acc 64.33%  val loss 0.9445 acc 67.46%
+augmented_vit epoch  43/150  train loss 0.9770 acc 65.01%  val loss 0.9481 acc 67.22%
+augmented_vit epoch  44/150  train loss 0.9597 acc 65.46%  val loss 0.9586 acc 67.14%
+augmented_vit epoch  45/150  train loss 0.9540 acc 65.59%  val loss 0.9553 acc 66.56%
+augmented_vit epoch  46/150  train loss 0.9381 acc 66.45%  val loss 0.9738 acc 66.96%
+augmented_vit epoch  47/150  train loss 0.9376 acc 66.22%  val loss 0.9528 acc 68.00%
+augmented_vit epoch  48/150  train loss 0.9235 acc 66.71%  val loss 0.9505 acc 68.28%
+augmented_vit epoch  49/150  train loss 0.9184 acc 66.99%  val loss 0.9348 acc 68.42%
+augmented_vit epoch  50/150  train loss 0.9080 acc 67.35%  val loss 0.9617 acc 67.58%
+augmented_vit epoch  51/150  train loss 0.9073 acc 67.38%  val loss 0.9333 acc 67.22%
+augmented_vit epoch  52/150  train loss 0.8961 acc 67.95%  val loss 0.9429 acc 68.26%
+augmented_vit epoch  53/150  train loss 0.8817 acc 68.25%  val loss 0.9328 acc 68.44%
+augmented_vit epoch  54/150  train loss 0.8715 acc 68.54%  val loss 0.9245 acc 68.84%
+augmented_vit epoch  55/150  train loss 0.8708 acc 68.88%  val loss 0.9509 acc 68.04%
+augmented_vit epoch  56/150  train loss 0.8543 acc 69.41%  val loss 0.9328 acc 68.10%
+augmented_vit epoch  57/150  train loss 0.8547 acc 69.12%  val loss 0.9574 acc 67.88%
+augmented_vit epoch  58/150  train loss 0.8418 acc 69.80%  val loss 0.9369 acc 68.70%
+augmented_vit epoch  59/150  train loss 0.8334 acc 69.73%  val loss 0.9448 acc 67.98%
+augmented_vit epoch  60/150  train loss 0.8272 acc 70.27%  val loss 0.9611 acc 68.40%
+augmented_vit epoch  61/150  train loss 0.8171 acc 70.31%  val loss 0.9532 acc 68.18%
+augmented_vit epoch  62/150  train loss 0.8076 acc 71.04%  val loss 0.9313 acc 69.16%
+augmented_vit epoch  63/150  train loss 0.8022 acc 71.22%  val loss 0.9290 acc 69.24%
+augmented_vit epoch  64/150  train loss 0.7921 acc 71.60%  val loss 0.9440 acc 68.94%
+Early stop augmented_vit at epoch 64. Best val loss 0.9245
+Evaluation baseline_cnn | Clean: 83.64%
+Evaluation baseline_vit | Clean: 72.02%
+Evaluation augmented_cnn | Clean: 81.35%
+Evaluation augmented_vit | Clean: 67.62%
+Evaluation baseline_cnn | Raw - Gaussian_Noise_S1: 34.75%
+Evaluation baseline_vit | Raw - Gaussian_Noise_S1: 56.45%
+Evaluation augmented_cnn | Raw - Gaussian_Noise_S1: 76.51%
+Evaluation augmented_vit | Raw - Gaussian_Noise_S1: 64.21%
+Evaluation baseline_cnn | Strategy A - Gaussian_Noise_S1: 56.93%
+Evaluation baseline_vit | Strategy A - Gaussian_Noise_S1: 59.13%
+Evaluation augmented_cnn | Strategy A - Gaussian_Noise_S1: 72.81%
+Evaluation augmented_vit | Strategy A - Gaussian_Noise_S1: 63.73%
+Evaluation baseline_cnn | Raw - Gaussian_Noise_S2: 13.57%
+Evaluation baseline_vit | Raw - Gaussian_Noise_S2: 26.69%
+Evaluation augmented_cnn | Raw - Gaussian_Noise_S2: 60.22%
+Evaluation augmented_vit | Raw - Gaussian_Noise_S2: 53.08%
+Evaluation baseline_cnn | Strategy A - Gaussian_Noise_S2: 34.01%
+Evaluation baseline_vit | Strategy A - Gaussian_Noise_S2: 43.02%
+Evaluation augmented_cnn | Strategy A - Gaussian_Noise_S2: 57.89%
+Evaluation augmented_vit | Strategy A - Gaussian_Noise_S2: 54.22%
+Evaluation baseline_cnn | Raw - Gaussian_Blur_S1: 56.22%
+Evaluation baseline_vit | Raw - Gaussian_Blur_S1: 59.60%
+Evaluation augmented_cnn | Raw - Gaussian_Blur_S1: 75.84%
+Evaluation augmented_vit | Raw - Gaussian_Blur_S1: 66.27%
+Evaluation baseline_cnn | Strategy A - Gaussian_Blur_S1: 71.21%
+Evaluation baseline_vit | Strategy A - Gaussian_Blur_S1: 69.67%
+Evaluation augmented_cnn | Strategy A - Gaussian_Blur_S1: 78.58%
+Evaluation augmented_vit | Strategy A - Gaussian_Blur_S1: 66.68%
+Evaluation baseline_cnn | Raw - Gaussian_Blur_S2: 32.00%
+Evaluation baseline_vit | Raw - Gaussian_Blur_S2: 45.92%
+Evaluation augmented_cnn | Raw - Gaussian_Blur_S2: 67.97%
+Evaluation augmented_vit | Raw - Gaussian_Blur_S2: 63.57%
+Evaluation baseline_cnn | Strategy A - Gaussian_Blur_S2: 42.14%
+Evaluation baseline_vit | Strategy A - Gaussian_Blur_S2: 54.04%
+Evaluation augmented_cnn | Strategy A - Gaussian_Blur_S2: 71.97%
+Evaluation augmented_vit | Strategy A - Gaussian_Blur_S2: 65.40%
+Evaluation baseline_cnn | Raw - Pixelation_S1: 48.13%
+Evaluation baseline_vit | Raw - Pixelation_S1: 60.85%
+Evaluation augmented_cnn | Raw - Pixelation_S1: 76.22%
+Evaluation augmented_vit | Raw - Pixelation_S1: 64.64%
+Evaluation baseline_cnn | Strategy A - Pixelation_S1: 62.06%
+Evaluation baseline_vit | Strategy A - Pixelation_S1: 60.71%
+Evaluation augmented_cnn | Strategy A - Pixelation_S1: 72.25%
+Evaluation augmented_vit | Strategy A - Pixelation_S1: 64.05%
+Evaluation baseline_cnn | Raw - Pixelation_S2: 26.07%
+Evaluation baseline_vit | Raw - Pixelation_S2: 29.26%
+Evaluation augmented_cnn | Raw - Pixelation_S2: 60.72%
+Evaluation augmented_vit | Raw - Pixelation_S2: 56.79%
+Evaluation baseline_cnn | Strategy A - Pixelation_S2: 42.90%
+Evaluation baseline_vit | Strategy A - Pixelation_S2: 32.50%
+Evaluation augmented_cnn | Strategy A - Pixelation_S2: 59.72%
+Evaluation augmented_vit | Strategy A - Pixelation_S2: 57.12%
+Project results: /home/tessier/Desktop/cse407-spark-starter/runs/cifar10-robustness_test_large/seed_16/results
