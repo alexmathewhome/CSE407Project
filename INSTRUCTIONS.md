@@ -130,6 +130,12 @@ Each experiment name gets its own folder under `runs/`.
 To add a setting, add it to `DEFAULTS` in `train.py`, then use `cfg["name"]` in the code.
 `train.py` stops with an error if a config file has a key that is not in `DEFAULTS`.
 
+The CIFAR-10 project config also uses `dataset`, `models`, `data_dir`,
+`download`, `require_cuda`, `validation_fraction`, `num_workers`, `cnn_epochs`,
+`vit_epochs`, `cnn_lr`, `vit_lr`, and `weight_decay`. See
+[`configs/project.yaml`](configs/project.yaml) for the values used to reproduce
+the notebook.
+
 ## 7. Run several seeds at the same time
 
 The Spark has no Slurm. `launch_seeds.sh` starts one process per seed.
@@ -195,7 +201,54 @@ nohup bash launch_seeds.sh configs/demo.yaml "0 1 2 3 4" 3 > launch.out 2>&1 &
 To stop one run, find its process ID with `ps` and run `kill <pid>`.
 The run can resume later.
 
-## 10. Use your own data and model
+## 10. Run the CIFAR-10 robustness project
+
+`configs/project.yaml` runs the notebook experiment end to end on CIFAR-10:
+
+- baseline CNN and Vision Transformer models
+- the same two models trained with random Gaussian noise, blur, or pixelation
+- accuracy evaluation on clean test images, six corrupted test sets, and six filtered test sets
+- CSV summaries and comparison plots
+
+Run the four-model experiment on the Spark:
+
+```bash
+conda activate cse407
+python train.py --config configs/project.yaml
+```
+
+The first run downloads CIFAR-10 into `data/`. Set `download: false` in the
+config if the dataset is already present and the Spark is offline. The project
+config requires CUDA so it will stop rather than silently run this long job on
+the CPU. Use `--seed` to repeat training with a different model/training seed;
+keep `data_seed` fixed to preserve the train/validation split and evaluation
+corruptions:
+
+```bash
+python train.py --config configs/project.yaml --seed 43
+```
+
+The outputs are under `runs/cifar10-robustness/seed_42/`:
+
+| Path | Content |
+|---|---|
+| `checkpoints/<model>/best.pt` | Best validation-loss model for each variant. |
+| `checkpoints/<model>/last.pt` | Full checkpoint used to resume each model. |
+| `history.json` | Per-epoch training/validation loss and accuracy for each model. |
+| `results/evaluation_results.csv` | Accuracy by model and clean/corrupted/filtered condition. |
+| `results/accuracy_comparison.csv` | Accuracy matrix used by the comparison plot. |
+| `results/robustness_comparison.csv` | Clean accuracy, mean raw-corruption accuracy, and drop. |
+| `results/training_history.csv` | Per-epoch training and validation metrics. |
+| `results/*.png` | Overall accuracy, augmentation, and filtering comparisons. |
+| `plots/curves.png` | Training/validation loss and accuracy curves. |
+| `meta.json` | Run status and per-model best validation/test results. |
+
+Change the `models` list to run only selected variants. Each model checkpoint
+resumes independently when you rerun the same config. The test set is used
+only for the final robustness evaluation; early stopping uses a held-out split
+from the CIFAR-10 training set.
+
+## 11. Use your own data and model
 
 Edit the block in `train.py` between the two comment lines `Replace this block` and the dashed line.
 Keep these parts unchanged:
@@ -205,10 +258,10 @@ Keep these parts unchanged:
 - The early-stopping check.
 - The writing of `history.json` and `meta.json`.
 
-Do not commit `runs/` or `.pt` files to git. `.gitignore` already excludes them.
+Do not commit `data/`, `runs/`, or `.pt` files to git. `.gitignore` already excludes them.
 Copy `best.pt`, `config.yaml` and `plots/curves.png` out of the run folder for your report.
 
-## Common problems
+## 12. Common problems
 
 | Message | Action |
 |---|---|

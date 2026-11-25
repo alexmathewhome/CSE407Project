@@ -1,0 +1,11 @@
+# One file per experiment. Copy this file, change the values, change `experiment`.
+experiment: TestRun
+data_seed: 2
+epochs: 200
+batch_size: 128
+lr: 0.01
+hidden: 64
+patience: 10
+min_delta: 0.0
+ckpt_every: 1
+plot_every: 5

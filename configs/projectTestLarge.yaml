@@ -1,0 +1,25 @@
+# Reproduces the CIFAR-10 robustness experiments from Project.ipynb.
+experiment: cifar10-robustness_test_large
+seed: 42
+data_seed: 42
+dataset: cifar10
+data_dir: data
+download: true
+require_cuda: true
+models:
+  - baseline_cnn
+  - baseline_vit
+  - augmented_cnn
+  - augmented_vit
+batch_size: 256
+validation_fraction: 0.1
+num_workers: 2
+cnn_epochs: 50
+vit_epochs: 150
+cnn_lr: 0.001
+vit_lr: 0.0003
+weight_decay: 0.01
+patience: 10
+min_delta: 0.0
+ckpt_every: 1
+plot_every: 5
